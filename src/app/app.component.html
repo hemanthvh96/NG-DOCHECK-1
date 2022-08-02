@@ -1,0 +1,8 @@
+<form>
+  <input placeholder="Name" type="text" #name />
+  <input placeholder="Team" type="text" #team />
+  <input placeholder="Age" type="text" #age />
+  <button (click)="onAddNewPlayer(name, team, age)">Add New Player</button>
+</form>
+
+<app-child [players]="players"></app-child>

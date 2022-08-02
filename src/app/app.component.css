@@ -1,0 +1,35 @@
+p {
+  font-family: Lato;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background-color: rgb(82, 119, 82);
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: whitesmoke;
+}
+
+form {
+  margin: 5px;
+  background-color: rgba(0, 105, 146, 0.288);
+  padding: 10px;
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  display: block;
+  margin: 10px auto;
+}
+
+input:focus {
+  outline: none;
+}
